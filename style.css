@@ -1,0 +1,55 @@
+/* ?==========  Variables  ==========? */
+:root {
+    --main-color: #3CD78F;
+}
+
+/* !=====  NO TOCAR ======! */
+* {
+    /* Default values of navigator */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Default values of lists */
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* ?==================== REUSABLE CSS CLASSES ====================?  */
+.section {
+    padding: 2rem 0 4rem;
+}
+
+.section__title {
+    font-size: 1.5rem;
+    color: hsl(152, 8%, 15%);
+}
+
+.section__subtitle {
+    font-size: .813rem;
+    margin-bottom: 3rem;
+}
+
+.section__title,
+.section__subtitle {
+    display: block;
+    text-align: center;
+}
+
+
+/* ?===== HEADER ======? */
+.header {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 12%;
+}
